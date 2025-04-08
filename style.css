@@ -76,3 +76,11 @@ body {
     margin-left: 100px;
     margin-top: 20px;
 }
+
+@media (max-width: 900px) {
+    .content {
+        padding: 30px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+}
