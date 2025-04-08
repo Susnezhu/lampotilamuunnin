@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lämpötilamuunnin</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <h1>Lämpötilamuunnin</h1>
+        <div class="controls">
+            <select id="option">
+                <option value="1">Celcius -> Fahrenheit</option>
+                <option value="2">Fahrenheit -> Celcius</option>
+            </select>
+        
+
+            <input type="text" id="numberInput" placeholder="Kirjoita luku">
+
+            <label><input type="radio" name="choice" value="a"> 1 desimaali</label>
+            <label><input type="radio" name="choice" value="b"> 2 desimaali</label>
+            <label><input type="radio" name="choice" value="c"> 3 desimaali</label>
+
+            <button class="start" onclick="checkValue()">Muunna</button>
+        </div>
+
+        <div class="result">
+        <p>Tulos:</p>
+        <p id="result"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>  
+</body>
+</html>
